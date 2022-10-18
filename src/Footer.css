@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none !important;
+  text-decoration: none !important;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+.bg_orange {
+  background-color: rgba(251, 102, 2, 0.15);
+}
+.btn-orange {
+  padding: 11px 56px;
+  background-color: var(--color-Safety-Orange);
+  color: rgba(255, 255, 255, 1);
+  font-weight: 600;
+  font-size: 24px;
+  font-family: "Raleway";
+  display: inline-block;
+  border-radius: 25px 0px;
+}
+.btn-orange:hover {
+  color: white;
+}
+.px_230 {
+  padding: 0px 230px;
+}

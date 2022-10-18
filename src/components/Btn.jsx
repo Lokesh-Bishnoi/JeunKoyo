@@ -3,7 +3,9 @@ import React from "react";
 const Btn = (props) => {
   return (
     <>
-          <a href={props.href}>{props.text}</a>
+      <a href={props.href} className="btn-orange">
+        {props.text}
+      </a>
     </>
   );
 };
