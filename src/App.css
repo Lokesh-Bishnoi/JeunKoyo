@@ -121,7 +121,7 @@
 .blk_btn {
   display: none;
 }
-@media (max-width: 576px) {
+@media (max-width: 712px) {
   .fix-navbar {
     min-height: 100vh;
     position: fixed;
@@ -220,3 +220,30 @@
   color: white;
 }
 /* ================ */
+
+.star {
+  animation: rotate 5s infinite linear;
+}
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.explore_btn {
+  padding: 7px 55px;
+  background: var(--color-Safety-Orange);
+  border-radius: 25px 0px;
+  transition: all linear 300ms;
+}
+.explore_btn:hover {
+  border-radius: 0px 25px;
+}
+.lh_35 {
+  line-height: 35.22px;
+}

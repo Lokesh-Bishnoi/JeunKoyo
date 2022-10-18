@@ -1,6 +1,10 @@
 import { useState } from "react";
 import React from "react";
+import About from "../components/About";
 import { Link } from "react-router-dom";
+// import black from "../images/png/black-bg-star.png";
+import noodles from "../images/svg/hero-noodles.svg";
+
 
 function Hero() {
   const [navShow, setNavShow] = useState(false);
@@ -14,7 +18,7 @@ function Hero() {
       <section className="min-vh-100 d-flex flex-column">
         <div className="container_2">
           <div className="d-flex justify-content-between align-items-center py-2">
-            <p className="ff-Hallelujah fs_lg fw_regular color_orange">
+            <p className="ff-Hallelujah ms-5 fs_lg fw_regular color_orange">
               <span className="color_55">Jeun</span>Koyo
             </p>
             <div className="ff-mono">
@@ -77,7 +81,7 @@ function Hero() {
 
         <section className="ff-Raleway d-flex align-items-center justify-content-center flex-grow-1">
           <div className="container">
-            <div className="row">
+            <div className="row align-items-center">
               <div className="col-lg-6">
                 <p className="fs_base fw_regular color_light_grey text-center">
                   Dine-In
@@ -88,11 +92,23 @@ function Hero() {
                   <span className="color_orange">Delicious</span>{" "}
                   <span className="d-block">Meals.</span>
                 </p>
+                <div className="text-center">
+                  <a
+                    className="explore_btn fs_lg fw_semibold text-white d-inline-block"
+                    href="#"
+                  >
+                    Explore
+                  </a>
+                </div>
+              </div>
+              <div className="col-lg-6">
+                <img className="w-100" src={noodles} alt="noodles" />
               </div>
             </div>
           </div>
         </section>
       </section>
+      <About />
     </>
   );
 }
