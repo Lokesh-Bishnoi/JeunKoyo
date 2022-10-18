@@ -17,10 +17,20 @@ const About = () => {
             exercitation ullamco laboris nisi ut aliquip ex ea commodo
             consequat.
           </p>
-          <div className="row">
+          <div className="row py-3">
             <div className="col-lg-4">
-              <div>
-                <Btn />
+              <div className="text-center">
+                <Btn text="Chefs" href="#" />
+              </div>
+            </div>
+            <div className="col-lg-4">
+              <div className="text-center">
+                <Btn text="Staffs" href="#" />
+              </div>
+            </div>
+            <div className="col-lg-4">
+              <div className="text-center">
+                <Btn text="Events" href="#" />
               </div>
             </div>
           </div>

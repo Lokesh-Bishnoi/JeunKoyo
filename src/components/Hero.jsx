@@ -2,9 +2,8 @@ import { useState } from "react";
 import React from "react";
 import About from "../components/About";
 import { Link } from "react-router-dom";
-// import black from "../images/png/black-bg-star.png";
 import noodles from "../images/svg/hero-noodles.svg";
-
+import Menu from "./Menu";
 
 function Hero() {
   const [navShow, setNavShow] = useState(false);
@@ -46,7 +45,7 @@ function Hero() {
               <a
                 href="#"
                 onClick={() => setNavShow(true)}
-                className=" bg-dark text-white py-1 me-3 ms-4 blk_btn"
+                className="text-white py-1 me-3 ms-4 blk_btn"
               >
                 <span className="line d-block"></span>
                 <span className="line d-block"></span>
@@ -54,7 +53,7 @@ function Hero() {
               </a>
             </div>
           </div>
-          <div className={`${navShow ? "nav-fix bg-danger" : " fix-navbar"}`}>
+          <div className={`${navShow ? "nav-fix bg_orangee" : " fix-navbar"}`}>
             <div className="d-flex justify-content-center align-items-center flex-column trans ff-mono">
               <Link to="/home">
                 <a className="text-white fs-5 nav_bar" href="#">
@@ -109,6 +108,7 @@ function Hero() {
         </section>
       </section>
       <About />
+      <Menu />
     </>
   );
 }
