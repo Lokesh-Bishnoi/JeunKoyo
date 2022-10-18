@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Raleway:wght@400;600;700&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -5,4 +7,96 @@
   text-decoration: none !important;
   box-sizing: border-box;
   scroll-behavior: smooth;
+}
+:root {
+  /*********** FONT-FAMILY **********/
+  --ff-Raleway: "Raleway", sans-serif;
+  --ff-Hallelujah: "Gloria Hallelujah", cursive;
+  /********** FONT-WEIGHT **********/
+  --fw-regular: 400;
+  --fw-semibold: 600;
+  --fw-bold: 700;
+  /**************** FONT-SIZE ****************/
+
+  --fs-xsm: 15px;
+  --fs-sm: 18px;
+  --fs-md: 24px;
+  --fs-base: 30px;
+  --fs-lg: 36px;
+  --fs-xl: 48px;
+
+  /**************** colors ****************/
+  --color-55: #555555;
+  --color-Safety-Orange: #fb6602;
+  --color-black: #000000;
+  --color-light-grey: rgba(0, 0, 0, 0.57);
+  --color-too-light: rgba(0, 0, 0, 0.42);
+  --color-pink: #fee8d9;
+}
+
+/*********** FONT-FAMILY **************/
+.ff-Raleway {
+  font-family: var(--ff-Raleway);
+}
+.ff-Hallelujah {
+  font-family: var(--ff-Hallelujah);
+}
+
+/************8 FONT-WEIGHT ***********/
+
+.fw_regular {
+  font-weight: var(--fw-regular);
+}
+.fw_semibold {
+  font-weight: var(--fw-semibold);
+}
+
+.fw_bold {
+  font-weight: var(--fw-bold);
+}
+
+/**************8 FONT-SIZE **************/
+
+.fs_xsm {
+  font-size: var(--fs-xsm);
+}
+
+.fs_sm {
+  font-size: var(--fs-sm);
+}
+
+.fs_md {
+  font-size: var(--fs-md);
+}
+
+.fs_base {
+  font-size: var(--fs-base);
+}
+
+.fs_lg {
+  font-size: var(--fs-lg);
+}
+
+.fs_xl {
+  font-size: var(--fs-xl);
+}
+
+/****************** COLORS ******************/
+.color_55 {
+  color: var(--color-55);
+}
+.color_orange {
+  color: var(--color-Safety-Orange);
+}
+.color_black {
+  color: var(--color-black);
+}
+.color_light_grey {
+  color: var(--color-light-grey);
+}
+.color_too_light {
+  color: var(--color-too-light);
+}
+.color_pink {
+  color: var(--color-pink);
 }
