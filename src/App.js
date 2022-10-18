@@ -1,10 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
+// import logo from './logo.svg';
+import "./App.css";
+import Hero from "./components/Hero";
+import Main from "./components/Main";
 
 function App() {
   return (
     <>
-    
+      <Hero />
+      <Main />
     </>
   );
 }
