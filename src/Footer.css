@@ -87,6 +87,7 @@ input {
 }
 @media (min-width: 992px) {
   .radius {
+    border-radius: 34px 0px !important;
     width: 100%;
   }
   .w_lg_100 {
