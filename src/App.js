@@ -6,8 +6,10 @@ import About from "./components/About";
 import Menu from "./components/Menu";
 import Main from "./components/Main";
 import Testimonials from "./components/Testimonials";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 import Footer from "./components/Footer";
-import Slider from "./components/Slider";
+import Slide from "./components/Slide";
 // import { Route, Switch } from "react-router-dom";
 
 function App() {
@@ -19,7 +21,7 @@ function App() {
       <Main />
       <Testimonials />
       <Footer />
-      <Slider />
+      <Slide />
 
       {/* <Switch>
         <Route exact path="/" component={Hero} />

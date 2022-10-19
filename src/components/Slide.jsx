@@ -1,0 +1,88 @@
+import React from "react";
+import Slider from "react-slick";
+import item_1 from "../images/svg/item_1.svg";
+import item_2 from "../images/svg/item_2.svg";
+import item_3 from "../images/svg/item_3.svg";
+
+const Slide = () => {
+  var settings = {
+    dots: false,
+    infinite: true,
+    autoplay: true,
+    speed: 5000,
+    autoplaySpeed: 0,
+    cssEase: "linear",
+    slidesToShow: 3,
+    centerMode: true,
+    centerPadding: "-120px",
+    slidesToScroll: 1,
+    responsive: [
+      {
+        breakpoint: 1200,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+        },
+      },
+      {
+        breakpoint: 800,
+
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          centerMode: false,
+          centerPadding: "0px",
+        },
+      },
+    ],
+  };
+  return (
+    <>
+      <Slider {...settings}>
+        <div className="row justify-content-center mt-4">
+          <div className="col-md-6 col-lg-4 h-100">
+            <div className="d-flex justify-content-center justify-content-lg-start align-items-center">
+              <img src={item_1} alt="items" />
+              <h3 className="ff_raleway fw_regular fs_sm color_black ms-4">
+                Rush Sycamore
+              </h3>
+            </div>
+            <p className="ff_raleway fw_regular fs_sm color_black px-2 mt-4">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam,
+            </p>
+          </div>
+          <div className="col-md-6 col-lg-4 h-100 mt-4 mt-lg-0">
+            <div className="d-flex justify-content-center justify-content-lg-start align-items-center">
+              <img src={item_2} alt="items" />
+              <h3 className="ff_raleway fw_regular fs_sm color_black ms-4">
+                Wealth Richness
+              </h3>
+            </div>
+            <p className="ff_raleway fw_regular fs_sm color_black px-2 mt-4">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam,
+            </p>
+          </div>
+          <div className="col-md-6 col-lg-4 h-100 mt-4 mt-lg-0">
+            <div className="d-flex justify-content-center justify-content-lg-start align-items-center">
+              <img src={item_3} alt="items" />
+              <h3 className="ff_raleway fw_regular fs_sm color_black ms-4">
+                Grantress Silktree
+              </h3>
+            </div>
+            <p className="ff_raleway fw_regular fs_sm color_black px-2 mt-4">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam,
+            </p>
+          </div>
+        </div>
+      </Slider>
+    </>
+  );
+};
+
+export default Slide;
