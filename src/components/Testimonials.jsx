@@ -64,9 +64,12 @@ const Testimonials = () => {
               Subscribe To Our Newsletter
             </h2>
             <p className="ff_raleway fw_redular fs_sm color_orange">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud.
+              <span className="d-xl-block">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor
+              </span>{" "}
+              incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+              veniam, quis nostrud.
             </p>
             <div className="w-100 mt-4">
               <input type="text" placeholder="Email Address" />
