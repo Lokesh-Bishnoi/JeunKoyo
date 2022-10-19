@@ -3,7 +3,6 @@ import React from "react";
 import About from "../components/About";
 import { Link } from "react-router-dom";
 import noodles from "../images/svg/hero-noodles.svg";
-import Menu from "./Menu";
 import cross from "../images/png/cross.png";
 
 function Hero() {

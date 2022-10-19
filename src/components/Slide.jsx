@@ -37,52 +37,82 @@ const Slide = () => {
     ],
   };
   return (
-    <>
-      <Slider {...settings}>
-        <div className="row justify-content-center mt-4">
-          <div className="col-md-6 col-lg-4 h-100">
-            <div className="d-flex justify-content-center justify-content-lg-start align-items-center">
-              <img src={item_1} alt="items" />
-              <h3 className="ff_raleway fw_regular fs_sm color_black ms-4">
-                Rush Sycamore
-              </h3>
+    <section className="ff-Raleway py-5 ">
+      <div className="container  position-relative py-5">
+        <Slider {...settings}>
+          <div className="pe-3">
+            <div className="d-flex align-items-center">
+              <img src={item_1} alt="blue" />
+              <p className="ms-4 fs_sm fw_regular color_black">Rush Sycamore</p>
             </div>
-            <p className="ff_raleway fw_regular fs_sm color_black px-2 mt-4">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam,
+            <p className="pt-4 ff-Raleway fs_sm fw_regular text-black lh_21">
+              Lorem ipsum dolor sit amet, consectetur{" "}
+              <span className="d-xl-block">
+                adipiscing elit, sed do eiusmod tempor
+              </span>{" "}
+              <span className="d-xl-block">
+                incididunt ut labore et dolore magna
+              </span>{" "}
+              aliqua. Ut enim ad minim veniam,
             </p>
           </div>
-          <div className="col-md-6 col-lg-4 h-100 mt-4 mt-lg-0">
-            <div className="d-flex justify-content-center justify-content-lg-start align-items-center">
-              <img src={item_2} alt="items" />
-              <h3 className="ff_raleway fw_regular fs_sm color_black ms-4">
+          <div className="pe-3">
+            <div className="d-flex align-items-center">
+              <img src={item_2} alt="blue" />
+              <p className="ms-4 fs_sm fw_regular color_black">
                 Wealth Richness
-              </h3>
+              </p>
             </div>
-            <p className="ff_raleway fw_regular fs_sm color_black px-2 mt-4">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam,
+            <p className="pt-4 ff-Raleway fs_sm fw_regular text-black lh_21">
+              Lorem ipsum dolor sit amet, consectetur{" "}
+              <span className="d-xl-block">
+                adipiscing elit, sed do eiusmod tempor
+              </span>{" "}
+              <span className="d-xl-block">
+                incididunt ut labore et dolore magna aliqua.
+              </span>{" "}
+              Ut enim ad minim veniam,
             </p>
           </div>
-          <div className="col-md-6 col-lg-4 h-100 mt-4 mt-lg-0">
-            <div className="d-flex justify-content-center justify-content-lg-start align-items-center">
-              <img src={item_3} alt="items" />
-              <h3 className="ff_raleway fw_regular fs_sm color_black ms-4">
+          <div className="pe-3">
+            <div className="d-flex align-items-center">
+              <img src={item_3} alt="blue" />
+              <p className="ms-4 fs_sm fw_regular color_black">
                 Grantress Silktree
-              </h3>
+              </p>
             </div>
-            <p className="ff_raleway fw_regular fs_sm color_black px-2 mt-4">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+            <p className="pt-4 ff-Raleway fs_sm fw_regular text-black lh_21">
+              Lorem ipsum dolor sit amet, consectetur{" "}
+              <span className="d-xl-block">
+                adipiscing elit, sed do eiusmod tempor
+              </span>{" "}
+              <span className="d-xl-block">
+                incididunt ut labore et dolore magna aliqua. Ut
+              </span>{" "}
               enim ad minim veniam,
             </p>
           </div>
-        </div>
-      </Slider>
-    </>
+          <div className="pe-3">
+            <div className="d-flex align-items-center">
+              <img src={item_2} alt="blue" />
+              <p className="ms-4 fs_sm fw_regular color_black">
+                Wealth Richness
+              </p>
+            </div>
+            <p className="pt-4 ff-Raleway fs_sm fw_regular text-black lh_21">
+              Lorem ipsum dolor sit amet, consectetur{" "}
+              <span className="d-xl-block">
+                adipiscing elit, sed do eiusmod tempor
+              </span>{" "}
+              <span className="d-xl-block">
+                incididunt ut labore et dolore magna aliqua. Ut
+              </span>{" "}
+              enim ad minim veniam,
+            </p>
+          </div>
+        </Slider>
+      </div>
+    </section>
   );
 };
-
 export default Slide;
