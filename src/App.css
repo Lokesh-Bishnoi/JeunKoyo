@@ -164,7 +164,10 @@
   display: none;
 }
 .trans {
-  transform: translateY(100%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 .line {
   width: 35px;
@@ -172,9 +175,6 @@
   background-color: black;
   margin: 6px 0;
 }
-/* .nav_link:active {
-  color: red !important;
-} */
 .nav_link {
   color: black;
 }
@@ -258,11 +258,6 @@
   /* background-color: black; */
   width: 20px;
 }
-
-/* Track */
-::-webkit-scrollbar-track {
-}
-
 /* Handle */
 ::-webkit-scrollbar-thumb {
   background: var(--color-Safety-Orange);
@@ -280,4 +275,13 @@
   50% {
     border-radius: 0px 25px;
   }
+}
+.scale:hover {
+  transform: scale(1.1);
+}
+.scale {
+  transition: all linear 300ms;
+}
+.radius {
+  border-radius: 40px 0px !important;
 }

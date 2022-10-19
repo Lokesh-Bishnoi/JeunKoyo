@@ -10,7 +10,7 @@ const About = () => {
           <p className="fs_base fw_regular text-center mb-5 lh_35">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor{" "}
-            <span className="d-lg-block">
+            <span className="d-xl-block">
               incididunt ut labore et dolore magna aliqua. Ut enim ad minim
               veniam, quis nostrud
             </span>{" "}
@@ -18,18 +18,18 @@ const About = () => {
             consequat.
           </p>
           <div className="row py-3">
-            <div className="col-lg-4">
-              <div className="text-center">
+            <div className="col-lg-4 col-sm-6">
+              <div className="text-center pt-3">
                 <Btn text="Chefs" href="#" />
               </div>
             </div>
-            <div className="col-lg-4">
-              <div className="text-center">
+            <div className="col-lg-4 col-sm-6">
+              <div className="text-center pt-3">
                 <Btn text="Staffs" href="#" />
               </div>
             </div>
-            <div className="col-lg-4">
-              <div className="text-center">
+            <div className="col-lg-4 col-sm-6 mx-auto">
+              <div className="text-center pt-3">
                 <Btn text="Events" href="#" />
               </div>
             </div>
