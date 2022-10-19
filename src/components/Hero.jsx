@@ -4,6 +4,7 @@ import About from "../components/About";
 import { Link } from "react-router-dom";
 import noodles from "../images/svg/hero-noodles.svg";
 import Menu from "./Menu";
+import cross from "../images/png/cross.png";
 
 function Hero() {
   const [navShow, setNavShow] = useState(false);
@@ -17,7 +18,7 @@ function Hero() {
       <section className="min-vh-100 d-flex flex-column">
         <div className="container_2">
           <div className="d-flex justify-content-between align-items-center py-2">
-            <p className="ff-Hallelujah ms-5 fs_lg fw_regular color_orange">
+            <p className="ff-Hallelujah ms-lg-5 fs_lg fw_regular color_orange">
               <span className="color_55">Jeun</span>Koyo
             </p>
             <div className="ff-mono">
@@ -54,7 +55,7 @@ function Hero() {
             </div>
           </div>
           <div className={`${navShow ? "nav-fix bg_orangee" : " fix-navbar"}`}>
-            <div className="d-flex justify-content-center align-items-center flex-column trans ff-mono">
+            <div className=" text-center trans ff-Raleway">
               <Link to="/home">
                 <a className="text-white fs-5 nav_bar" href="#">
                   Home
@@ -62,23 +63,25 @@ function Hero() {
               </Link>
               <Link to="/contact">
                 <a className="text-white fs-5 mt-4 nav_bar" href="#">
-                  Contact
+                  Menu
                 </a>
               </Link>
               <Link to="/faq">
                 <a className="text-white fs-5 mt-4 nav_bar" href="#">
-                  Faq
+                  Reservations
                 </a>
               </Link>
             </div>
             <button
               onClick={() => setNavShow(false)}
               className="bg-transparent btn cross"
-            ></button>
+            >
+              <img src={cross} alt="cross-img" />
+            </button>
           </div>
         </div>
 
-        <section className="ff-Raleway d-flex align-items-center justify-content-center flex-grow-1">
+        <section className="ff-Raleway d-flex align-items-center justify-content-center flex-grow-1 py-5">
           <div className="container">
             <div className="row align-items-center">
               <div className="col-lg-6">
@@ -91,7 +94,7 @@ function Hero() {
                   <span className="color_orange">Delicious</span>{" "}
                   <span className="d-block">Meals.</span>
                 </p>
-                <div className="text-center">
+                <div className="text-center pb-lg-0 pb-4">
                   <a
                     className="explore_btn fs_lg fw_semibold text-white d-inline-block"
                     href="#"

@@ -12,7 +12,7 @@ const   Menu = () => {
     <>
       <section className="ff-Raleway py-5 mt-5">
         <div className="container">
-          <div className="d-flex align-items-center justify-content-between">
+          <div className="d-md-flex text-center text-lg-start align-items-center justify-content-between">
             <p className="mb-0 fs_xl fw_semibold color_orange">
               Our Popular Menu
             </p>
@@ -23,7 +23,13 @@ const   Menu = () => {
             <div className="col-lg-6">
               <div className="row align-items-center justify-content-between">
                 <div className="col-lg-5">
-                  <img src={image1} alt="food-image" className="w-100" />
+                  <div className="overflow-hidden radius">
+                    <img
+                      src={image1}
+                      alt="food-image"
+                      className="w-100 scale"
+                    />
+                  </div>
                 </div>
                 <div className="col-lg-7">
                   <p className="text-center fs_md fw_regular color_black">
@@ -42,9 +48,15 @@ const   Menu = () => {
           </div>
           <div className="row justify-content-center ms-lg-4">
             <div className="col-lg-6">
-              <div className="row justify-content-between align-items-center">
+              <div className="row align-items-center">
                 <div className="col-lg-5">
-                  <img src={image2} alt="food-image" className="w-100" />
+                  <div className="overflow-hidden radius">
+                    <img
+                      src={image2}
+                      alt="food-image"
+                      className="w-100 scale"
+                    />
+                  </div>
                 </div>
                 <div className="col-lg-6">
                   <p className="text-center fs_md fw_regular color_black">
@@ -65,7 +77,13 @@ const   Menu = () => {
             <div className="col-lg-6">
               <div className="row align-items-center">
                 <div className="col-lg-5">
-                  <img src={image3} alt="food-image" className="w-100" />
+                  <div className="overflow-hidden radius">
+                    <img
+                      src={image3}
+                      alt="food-image"
+                      className="w-100 scale"
+                    />
+                  </div>
                 </div>
                 <div className="col-lg-7">
                   <p className="text-center fs_md fw_regular color_black">
@@ -86,7 +104,13 @@ const   Menu = () => {
             <div className="col-lg-6">
               <div className="row align-items-center justify-content-between">
                 <div className="col-lg-5">
-                  <img src={image4} alt="food-image" className="w-100" />
+                  <div className="overflow-hidden radius">
+                    <img
+                      src={image4}
+                      alt="food-image"
+                      className="w-100 scale"
+                    />
+                  </div>
                 </div>
                 <div className="col-lg-6">
                   <p className="text-center fs_md fw_regular color_black">
@@ -104,7 +128,13 @@ const   Menu = () => {
             <div className="col-lg-6">
               <div className="row align-items-center">
                 <div className="col-lg-5">
-                  <img src={image5} alt="food-image-5" className="w-100" />
+                  <div className="overflow-hidden radius">
+                    <img
+                      src={image5}
+                      alt="food-image-5"
+                      className="w-100 scale"
+                    />
+                  </div>
                 </div>
                 <div className="col-lg-6">
                   <p className="text-center fs_md fw_regular color_black">
@@ -124,7 +154,13 @@ const   Menu = () => {
             <div className="col-lg-6">
               <div className="row align-items-center">
                 <div className="col-lg-5">
-                  <img className="w-100" src={image6} alt="food-image-6" />
+                  <div className="overflow-hidden radius">
+                    <img
+                      className="w-100 scale"
+                      src={image6}
+                      alt="food-image-6 "
+                    />
+                  </div>
                 </div>
                 <div className="col-lg-6">
                   <p className="text-center fs_md fw_regular color_black">
