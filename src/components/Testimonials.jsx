@@ -2,6 +2,7 @@ import React from "react";
 import item_1 from "../images/svg/item_1.svg";
 import item_2 from "../images/svg/item_2.svg";
 import item_3 from "../images/svg/item_3.svg";
+import Slide from "./Slide";
 
 const Testimonials = () => {
   return (
@@ -16,7 +17,7 @@ const Testimonials = () => {
             Here’s what people had to say
           </h4>
 
-          <div className="row justify-content-center mt-4">
+          {/* <div className="row justify-content-center mt-4">
             <div className="col-md-6 col-lg-4 h-100">
               <div className="d-flex justify-content-center justify-content-lg-start align-items-center">
                 <img src={item_1} alt="items" />
@@ -56,8 +57,8 @@ const Testimonials = () => {
                 enim ad minim veniam,
               </p>
             </div>
-          </div>
-
+          </div> */}
+          <Slide />
           <div className="orange_border_box text-center mt-4 mt-xl-0">
             <h2 className="ff_raleway fw_semibold fs_base color_orange">
               Subscribe To Our Newsletter
@@ -69,7 +70,10 @@ const Testimonials = () => {
             </p>
             <div className="w-100 mt-4">
               <input type="text" placeholder="Email Address" />
-              <button className="btn_box ff_raleway fw_semibold fs_sm" type="submit"> 
+              <button
+                className="btn_box ff_raleway fw_semibold fs_sm"
+                type="submit"
+              >
                 REGISTER
               </button>
             </div>

@@ -81,13 +81,13 @@ input {
   width: 75%;
 }
 .radius {
-  border-radius: 90px 0px !important;
-  width: 75%;
+  border-radius: 86px 0px !important;
   margin: 0 auto;
+  width: 75%;
 }
 @media (min-width: 992px) {
   .radius {
-    border-radius: 34px 0px !important;
+    border-radius: 40px 0px !important;
     width: 100%;
   }
   .w_lg_100 {
