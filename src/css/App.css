@@ -8,103 +8,11 @@
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
-:root {
-  /*********** FONT-FAMILY **********/
-  --ff-Raleway: "Raleway", sans-serif;
-  --ff-Hallelujah: "Gloria Hallelujah", cursive;
-  /********** FONT-WEIGHT **********/
-  --fw-regular: 400;
-  --fw-semibold: 600;
-  --fw-bold: 700;
-  /**************** FONT-SIZE ****************/
-
-  --fs-xsm: 15px;
-  --fs-sm: 18px;
-  --fs-md: 24px;
-  --fs-base: 30px;
-  --fs-lg: 36px;
-  --fs-xl: 48px;
-
-  /**************** colors ****************/
-  --color-55: #555555;
-  --color-Safety-Orange: #fb6602;
-  --color-black: #000000;
-  --color-light-grey: rgba(0, 0, 0, 0.57);
-  --color-too-light: rgba(0, 0, 0, 0.42);
-  --color-pink: #fee8d9;
-}
-
-/*********** FONT-FAMILY **************/
-.ff-Raleway {
-  font-family: var(--ff-Raleway);
-}
-.ff-Hallelujah {
-  font-family: var(--ff-Hallelujah);
-}
-
-/************8 FONT-WEIGHT ***********/
-
-.fw_regular {
-  font-weight: var(--fw-regular);
-}
-.fw_semibold {
-  font-weight: var(--fw-semibold);
-}
-
-.fw_bold {
-  font-weight: var(--fw-bold);
-}
-
-/**************8 FONT-SIZE **************/
-
-.fs_xsm {
-  font-size: var(--fs-xsm);
-}
-
-.fs_sm {
-  font-size: var(--fs-sm);
-}
-
-.fs_md {
-  font-size: var(--fs-md);
-}
-
-.fs_base {
-  font-size: var(--fs-base);
-}
-
-.fs_lg {
-  font-size: var(--fs-lg);
-}
-
-.fs_xl {
-  font-size: var(--fs-xl);
-}
-
-/****************** COLORS ******************/
-.color_55 {
-  color: var(--color-55);
-}
-.color_orange {
-  color: var(--color-Safety-Orange);
-}
-.color_black {
-  color: var(--color-black);
-}
-.color_light_grey {
-  color: var(--color-light-grey);
-}
-.color_too_light {
-  color: var(--color-too-light);
-}
-.color_pink {
-  color: var(--color-pink);
-}
 
 /*  */
 .container_2 {
   max-width: 1122px;
-  padding-left: 42px;
+  padding-left: 12px;
   padding-right: 12px;
 }
 /* ================ */
@@ -244,9 +152,7 @@
 /* .explore_btn:hover {
   border-radius: 0px 25px;
 } */
-.lh_35 {
-  line-height: 35.22px;
-}
+
 .lh_17 {
   line-height: 17.61px;
 }
@@ -291,4 +197,117 @@
 }
 .nav_menu {
   position: relative;
+}
+.bg_orange {
+  background-color: rgba(251, 102, 2, 0.15);
+}
+.btn-orange {
+  padding: 6px 64px;
+  background-color: var(--color-Safety-Orange);
+  color: rgba(255, 255, 255, 1);
+  font-weight: 600;
+  font-size: 24px;
+  font-family: "Raleway";
+  display: inline-block;
+  border-radius: 25px 0px;
+  transition: all linear 300ms;
+}
+.btn-orange:hover {
+  border-radius: 0px 25px;
+}
+.btn-orange:hover {
+  color: white;
+}
+input {
+  width: 100%;
+  padding: 12px 14px;
+  border: 1px solid rgba(251, 102, 2, 1);
+  border-radius: 20px;
+}
+.btn_box {
+  padding: 16px 14px 16px 25px;
+  background-color: rgba(251, 102, 2, 1);
+  border-radius: 20px;
+  border: none;
+  color: white;
+  margin-top: 24px;
+}
+.box_white {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 72px 50px 34px;
+  border-radius: 35px;
+  transition: all 0.4s ease-in-out;
+  cursor: pointer;
+  height: 100%;
+}
+.box_white:hover {
+  background: #ffffff;
+  box-shadow: 6px 6px 10px 10px #8b8b8b8c;
+  border-radius: 35px;
+}
+.col_svg path {
+  transition: all 0.4s ease-in-out;
+}
+.box_white:hover .col_svg path {
+  fill: rgb(0, 81, 255);
+}
+.orange_border_box {
+  padding: 10px;
+  width: 100%;
+  transform: translateY(0%);
+  margin: 0 auto;
+  background: #ffffff;
+  border: 1px solid #fb6602;
+  border-radius: 25px;
+  transition: all 1s ease-in-out;
+}
+.bg_orange1 {
+  background-color: rgba(251, 102, 2, 1);
+}
+.bg_orange1 ul li a:hover {
+  color: whitesmoke;
+}
+.w_small_75 {
+  width: 75%;
+}
+.radius {
+  border-radius: 37px 0px !important;
+  margin: 0 auto;
+  width: 75%;
+}
+@media (min-width: 768px) {
+  .radius {
+    border-radius: 86px 0px !important;
+  }
+}
+@media (min-width: 992px) {
+  .lh_35 {
+    line-height: 35.22px;
+  }
+  .radius {
+    border-radius: 32px 0px !important;
+    width: 100%;
+  }
+  .w_lg_100 {
+    width: 100%;
+  }
+  .orange_border_box {
+    padding: 40px 50px;
+  }
+  input {
+    width: 80%;
+    padding: 16px 50px;
+    border-radius: 20px 0px 0px 20px;
+  }
+  .btn_box {
+    border-radius: 0px 20px 20px 0px;
+  }
+}
+@media (min-width: 1200px) {
+  .orange_border_box {
+    width: 70%;
+    transform: translateY(24%);
+  }
 }

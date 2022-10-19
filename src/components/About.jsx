@@ -19,7 +19,7 @@ const About = () => {
           </p>
           <div className="row py-3">
             <div className="col-lg-4 col-sm-6">
-              <div className="text-start text-md-center pt-3">
+              <div className="text-start text-sm-center pt-3">
                 <Btn text="Chefs" href="#" />
               </div>
             </div>
@@ -29,7 +29,7 @@ const About = () => {
               </div>
             </div>
             <div className="col-lg-4 col-sm-6 mx-auto">
-              <div className="text-end text-md-center pt-3">
+              <div className="text-end text-sm-center pt-3">
                 <Btn text="Events" href="#" />
               </div>
             </div>

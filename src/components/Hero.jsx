@@ -15,9 +15,9 @@ function Hero() {
   return (
     <>
       <section className="min-vh-100 d-flex flex-column">
-        <div className="container_2">
+        <div className="container_2 ps-lg-5">
           <div className="d-flex justify-content-between align-items-center py-2">
-            <p className="ff-Hallelujah ms-lg-5 fs_lg fw_regular color_orange">
+            <p className="ff-Hallelujah ms-lg-5 fs_lg fw_regular color_orange mb-0">
               <span className="color_55">Jeun</span>Koyo
             </p>
             <div className="ff-mono">
@@ -60,12 +60,12 @@ function Hero() {
                   Home
                 </a>
               </Link>
-              <Link to="/contact">
+              <Link to="/Menu">
                 <a className="text-white fs-5 mt-4 nav_bar" href="#">
                   Menu
                 </a>
               </Link>
-              <Link to="/faq">
+              <Link to="/Reservations">
                 <a className="text-white fs-5 mt-4 nav_bar" href="#">
                   Reservations
                 </a>

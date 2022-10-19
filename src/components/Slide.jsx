@@ -37,7 +37,7 @@ const Slide = () => {
     ],
   };
   return (
-    <section className="ff-Raleway py-5 ">
+    <section className="ff-Raleway py-md-5">
       <div className="container  position-relative py-5">
         <Slider {...settings}>
           <div className="pe-3">

@@ -13,7 +13,7 @@ const Testimonials = () => {
           <h2 className="ff_raleway fw_semibold fs_xl color_orange text-center">
             Testimonials
           </h2>
-          <h4 className="mt-5 ff_raleway fw_regular fs_lg color_black text-center">
+          <h4 className="mt-md-5 ff_raleway fw_regular fs_lg color_black text-center">
             Here’s what people had to say
           </h4>
 

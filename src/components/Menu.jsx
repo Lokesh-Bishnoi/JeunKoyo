@@ -16,7 +16,9 @@ const Menu = () => {
             <p className="mb-0 fs_xl fw_semibold color_orange">
               Our Popular Menu
             </p>
-            <Btn text="Full Menu" href="#" />
+            <div className="mt-4 mt-md-0">
+              <Btn text="Full Menu" href="#" />
+            </div>
           </div>
 
           <div className="row align-items-center ms-lg-5 ps-lg-5 mt-5">
@@ -32,7 +34,7 @@ const Menu = () => {
                   </div>
                 </div>
                 <div className="col-lg-7">
-                  <p className="text-center fs_md fw_regular color_black">
+                  <p className="text-center fs_md fw_regular color_black mt-2 mb-0">
                     Pan Seered Omelet Steak
                   </p>
                   <p className="text-center fs_xsm fw_regular color_light_grey lh_17">
@@ -59,7 +61,7 @@ const Menu = () => {
                   </div>
                 </div>
                 <div className="col-lg-6">
-                  <p className="text-center fs_md fw_regular color_black">
+                  <p className="text-center fs_md fw_regular color_black mt-2 mb-0">
                     Pasta Fiesta
                   </p>
                   <p className="text-center fs_xsm fw_regular color_light_grey lh_17">
@@ -86,7 +88,7 @@ const Menu = () => {
                   </div>
                 </div>
                 <div className="col-lg-7">
-                  <p className="text-center fs_md fw_regular color_black">
+                  <p className="text-center fs_md fw_regular color_black mt-2 mb-0">
                     ‘Daily’ Bread and Milk Sauce
                   </p>
                   <p className="text-center fs_xsm fw_regular color_light_grey lh_17">
@@ -113,7 +115,7 @@ const Menu = () => {
                   </div>
                 </div>
                 <div className="col-lg-6">
-                  <p className="text-center fs_md fw_regular color_black">
+                  <p className="text-center fs_md fw_regular color_black mt-2 mb-0">
                     ‘Stirred’ Brown Cocoa Soup with Molten Bread
                   </p>
                   <p className="text-center fs_xsm fw_regular color_light_grey lh_17">
@@ -137,7 +139,7 @@ const Menu = () => {
                   </div>
                 </div>
                 <div className="col-lg-6">
-                  <p className="text-center fs_md fw_regular color_black">
+                  <p className="text-center fs_md fw_regular color_black mt-2 mb-0">
                     Yellow ‘Cider’ Noodle{" "}
                     <span className="d-xl-block">Soup</span>
                   </p>
@@ -163,7 +165,7 @@ const Menu = () => {
                   </div>
                 </div>
                 <div className="col-lg-6">
-                  <p className="text-center fs_md fw_regular color_black">
+                  <p className="text-center fs_md fw_regular color_black mt-2 mb-0">
                     Stir Fry Spaghetti
                   </p>
                   <p className="text-center fs_xsm fw_regular color_light_grey lh_17">

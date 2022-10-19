@@ -1,7 +1,5 @@
 import React from "react";
 import Btn from "./Btn";
-import "../App.css";
-import "../Footer.css";
 import dinning_table from "../images/png/dinning_table.png";
 const Main = () => {
   return (
@@ -10,10 +8,10 @@ const Main = () => {
       <section className="bg_orange py-2">
         <div className="container-fluid">
           <div className="row align-items-center">
-            <div className="col-lg-7">
+            <div className="col-md-7">
               <img src={dinning_table} alt="dinning-table" className="w-100" />
             </div>
-            <div className="col-lg-5 my-4 mt-lg-0">
+            <div className="col-md-5 my-4 mt-lg-0">
               <div className="text-center">
                 <h2 className="ff-raleway m-0 fw_semibold fs_xl text-center">
                   Get Served With
@@ -40,13 +38,13 @@ const Main = () => {
 
       {/* why choose jeunkoyo */}
       <section>
-        <div className="container py-5 mt-4">
+        <div className="container py-lg-5 mt-4">
           <h2 className="ff_raleway fw_regular fs_xl text-center color_black">
             Why Choose Jeunkoyo
           </h2>
 
-          <div className="row justify-content-center mt-5 pt-3">
-            <div className="col-md-6 col-lg-4">
+          <div className="row justify-content-center mt-lg-5 pt-3">
+            <div className="col-md-6 col-lg-4 px-4">
               <div className="text-center box_white">
                 <div className="col_svg">
                   <svg
@@ -71,7 +69,7 @@ const Main = () => {
                 </p>
               </div>
             </div>
-            <div className="col-md-6 col-lg-4 mt-4 mt-lg-0">
+            <div className="col-md-6 col-lg-4 px-4 mt-4 mt-lg-0">
               <div className="text-center box_white">
                 <div>
                   <svg
@@ -171,7 +169,7 @@ const Main = () => {
                 </p>
               </div>
             </div>
-            <div className="col-md-6 col-lg-4 mt-4 mt-lg-0">
+            <div className="col-md-6 col-lg-4 px-4 mt-4 mt-lg-0">
               <div className="text-center box_white">
                 <div className="col_svg">
                   <svg
