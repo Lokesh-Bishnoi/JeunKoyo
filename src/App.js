@@ -7,6 +7,7 @@ import Menu from "./components/Menu";
 import Main from "./components/Main";
 import Testimonials from "./components/Testimonials";
 import Footer from "./components/Footer";
+import Slider from "./components/Slider";
 // import { Route, Switch } from "react-router-dom";
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
       <Main />
       <Testimonials />
       <Footer />
+      <Slider />
 
       {/* <Switch>
         <Route exact path="/" component={Hero} />
