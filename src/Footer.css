@@ -62,16 +62,24 @@ input {
 }
 .orange_border_box {
   padding: 40px 50px;
-  width: 70%;
-  transform: translateY(24%);
+  width: 100%;
+  transform: translateY(0%);
   margin: 0 auto;
   background: #ffffff;
   border: 1px solid #fb6602;
   border-radius: 25px;
+  transition: all 1s ease-in-out;
 }
 .bg_orange1 {
   background-color: rgba(251, 102, 2, 1);
 }
 .bg_orange1 ul li a:hover {
   color: whitesmoke;
+}
+
+@media (min-width: 992px) {
+  .orange_border_box {
+  width: 70%;
+    transform: translateY(24%);
+  }
 }

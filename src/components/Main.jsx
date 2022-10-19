@@ -2,7 +2,7 @@ import React from "react";
 import Btn from "./Btn";
 import "../App.css";
 import "../Footer.css";
-import dinning_table from "../images/png/dinning-table.png";
+import dinning_table from "../images/png/dinning_table.png";
 const Main = () => {
   return (
     <>
@@ -25,10 +25,10 @@ const Main = () => {
                 <p className="ff_raleway my-4 fw_semibold fs_md color_black">
                   Vegetarian? Vegan? We have meals that{" "}
                   <span className="d-xl-block">
-                    will absolutely suit your lifestyle. Come 
+                    will absolutely suit your lifestyle. Come
                   </span>
                   <span className="d-xl-block">
-                          dine with us and thank us later!
+                    dine with us and thank us later!
                   </span>
                 </p>
                 <Btn text="See Menu" href="#" />
