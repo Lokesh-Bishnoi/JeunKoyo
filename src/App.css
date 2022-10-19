@@ -285,3 +285,9 @@
 .radius {
   border-radius: 40px 0px !important;
 }
+.slide_box {
+  max-width: 600px;
+}
+.lh_21 {
+  line-height: 21px;
+}
