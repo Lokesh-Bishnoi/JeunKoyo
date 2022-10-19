@@ -13,11 +13,11 @@ function App() {
   return (
     <>
       <Hero />
-      {/* <About /> */}
-      {/* <Menu /> */}
-      {/* <Main /> */}
-      {/* <Testimonials /> */}
-      {/* <Footer /> */}
+      <About />
+      <Menu />
+      <Main />
+      <Testimonials />
+      <Footer />
 
       {/* <Switch>
         <Route exact path="/" component={Hero} />
