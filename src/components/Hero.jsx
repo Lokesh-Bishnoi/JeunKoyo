@@ -56,17 +56,29 @@ function Hero() {
           <div className={`${navShow ? "nav-fix bg_orangee" : " fix-navbar"}`}>
             <div className=" text-center trans ff-Raleway">
               <Link to="/home">
-                <a className="text-white fs-5 nav_bar" href="#">
+                <a
+                  className="text-white fs-5 nav_bar"
+                  href="#"
+                  onClick={() => setNavShow(false)}
+                >
                   Home
                 </a>
               </Link>
               <Link to="/Menu">
-                <a className="text-white fs-5 mt-4 nav_bar" href="#">
+                <a
+                  className="text-white fs-5 mt-4 nav_bar"
+                  href="#"
+                  onClick={() => setNavShow(false)}
+                >
                   Menu
                 </a>
               </Link>
               <Link to="/Reservations">
-                <a className="text-white fs-5 mt-4 nav_bar" href="#">
+                <a
+                  className="text-white fs-5 mt-4 nav_bar"
+                  href="#"
+                  onClick={() => setNavShow(false)}
+                >
                   Reservations
                 </a>
               </Link>
