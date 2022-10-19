@@ -7,7 +7,7 @@ import image4 from "../images/svg/food-img-4.svg";
 import image5 from "../images/svg/food-img-5.svg";
 import image6 from "../images/svg/food-img-6.svg";
 
-const   Menu = () => {
+const Menu = () => {
   return (
     <>
       <section className="ff-Raleway py-5 mt-5">
@@ -19,7 +19,7 @@ const   Menu = () => {
             <Btn text="Full Menu" href="#" />
           </div>
 
-          <div className="row align-items-center ms-lg-5 ps-lg-5 pt-5">
+          <div className="row align-items-center ms-lg-5 ps-lg-5 mt-5">
             <div className="col-lg-6">
               <div className="row align-items-center justify-content-between">
                 <div className="col-lg-5">
@@ -46,7 +46,7 @@ const   Menu = () => {
               </div>
             </div>
           </div>
-          <div className="row justify-content-center ms-lg-4">
+          <div className="row justify-content-center ms-lg-4 mt-4 mt-lg-1">
             <div className="col-lg-6">
               <div className="row align-items-center">
                 <div className="col-lg-5">
@@ -73,7 +73,7 @@ const   Menu = () => {
               </div>
             </div>
           </div>
-          <div className="row justify-content-end">
+          <div className="row justify-content-end mt-4 mt-lg-1">
             <div className="col-lg-6">
               <div className="row align-items-center">
                 <div className="col-lg-5">
@@ -100,7 +100,7 @@ const   Menu = () => {
               </div>
             </div>
           </div>
-          <div className="row">
+          <div className="row mt-4 mt-lg-1">
             <div className="col-lg-6">
               <div className="row align-items-center justify-content-between">
                 <div className="col-lg-5">
@@ -124,7 +124,7 @@ const   Menu = () => {
               </div>
             </div>
           </div>
-          <div className="row justify-content-center">
+          <div className="row justify-content-center mt-4 mt-lg-1">
             <div className="col-lg-6">
               <div className="row align-items-center">
                 <div className="col-lg-5">
@@ -150,7 +150,7 @@ const   Menu = () => {
               </div>
             </div>
           </div>
-          <div className="row justify-content-end">
+          <div className="row justify-content-end mt-4 mt-lg-1">
             <div className="col-lg-6">
               <div className="row align-items-center">
                 <div className="col-lg-5">

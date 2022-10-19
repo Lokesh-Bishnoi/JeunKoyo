@@ -282,6 +282,4 @@
 .scale {
   transition: all linear 300ms;
 }
-.radius {
-  border-radius: 40px 0px !important;
-}
+

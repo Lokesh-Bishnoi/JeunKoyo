@@ -58,7 +58,7 @@ const Testimonials = () => {
             </div>
           </div>
 
-          <div className="orange_border_box text-center">
+          <div className="orange_border_box text-center mt-4 mt-xl-0">
             <h2 className="ff_raleway fw_semibold fs_base color_orange">
               Subscribe To Our Newsletter
             </h2>

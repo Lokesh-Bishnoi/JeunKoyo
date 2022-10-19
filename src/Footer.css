@@ -27,17 +27,18 @@
   color: white;
 }
 input {
-  width: 80%;
-  padding: 16px 50px;
+  width: 100%;
+  padding: 12px 14px;
   border: 1px solid rgba(251, 102, 2, 1);
-  border-radius: 20px 0px 0px 20px;
+  border-radius: 20px;
 }
 .btn_box {
   padding: 16px 14px 16px 25px;
   background-color: rgba(251, 102, 2, 1);
-  border-radius: 0px 20px 20px 0px;
+  border-radius: 20px;
   border: none;
   color: white;
+  margin-top: 24px;
 }
 .box_white {
   display: flex;
@@ -61,7 +62,7 @@ input {
   fill: rgb(0, 81, 255);
 }
 .orange_border_box {
-  padding: 40px 50px;
+  padding: 10px;
   width: 100%;
   transform: translateY(0%);
   margin: 0 auto;
@@ -76,10 +77,27 @@ input {
 .bg_orange1 ul li a:hover {
   color: whitesmoke;
 }
-
+.w_small_75{
+    width: 75%;
+}
 @media (min-width: 992px) {
+  .w_lg_100{
+    width: 100%;
+  }
   .orange_border_box {
-  width: 70%;
+    padding: 40px 50px;
+  }
+  input {
+    width: 80%;  padding: 16px 50px;
+    border-radius: 20px 0px 0px 20px;
+  }
+  .btn_box {
+    border-radius: 0px 20px 20px 0px;
+  }
+}
+@media (min-width: 1200px) {
+  .orange_border_box {
+    width: 70%;
     transform: translateY(24%);
   }
 }

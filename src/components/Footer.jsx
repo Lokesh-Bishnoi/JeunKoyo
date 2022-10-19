@@ -5,8 +5,8 @@ const Footer = () => {
     <>
       <section className="bg_orange1 py-5">
         <div className="container py-4">
-          <div className="row align-items-center">
-            <div className="col-4">
+          <div className="row align-items-center justify-content-center">
+            <div className="col-sm-6 col-lg-4">
               <ul>
                 <li>
                   <a
@@ -42,8 +42,8 @@ const Footer = () => {
                 </li>
               </ul>
             </div>
-            <div className="col-4">
-              <ul>
+            <div className="col-sm-6 col-lg-4">
+              <ul className="text-end text-sm-start">
                 <li>
                   <a
                     className="ff_raleway fw_semibold fs_md color_pink"
@@ -78,7 +78,7 @@ const Footer = () => {
                 </li>
               </ul>
             </div>
-            <div className="col-4">
+            <div className="col-sm-6 col-lg-4">
               <ul>
                 <li>
                   <a

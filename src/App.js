@@ -11,7 +11,7 @@ import "slick-carousel/slick/slick-theme.css";
 import Footer from "./components/Footer";
 import Slide from "./components/Slide";
 // import { Route, Switch } from "react-router-dom";
-
+  
 function App() {
   return (
     <>
