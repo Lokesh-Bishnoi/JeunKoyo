@@ -7,7 +7,7 @@ const Main = () => {
   return (
     <>
       {/* background orange section */}
-      {/* <section className="bg_orange py-2">
+      <section className="bg_orange py-2">
         <div className="container-fluid">
           <div className="row align-items-center">
             <div className="col-lg-7">
@@ -24,11 +24,11 @@ const Main = () => {
                 </h2>
                 <p className="ff_raleway my-4 fw_semibold fs_md color_black">
                   Vegetarian? Vegan? We have meals that{" "}
-                  <span className="d-xxl-block">
-                    will absolutely suit your lifestyle. Come
+                  <span className="d-xl-block">
+                    will absolutely suit your lifestyle. Come 
                   </span>
-                  <span className="d-xxl-block">
-                    dine with us and thank us later!
+                  <span className="d-xl-block">
+                          dine with us and thank us later!
                   </span>
                 </p>
                 <Btn text="See Menu" href="#" />
@@ -36,10 +36,10 @@ const Main = () => {
             </div>
           </div>
         </div>
-      </section> */}
+      </section>
 
       {/* why choose jeunkoyo */}
-      {/* <section>
+      <section>
         <div className="container py-5 mt-4">
           <h2 className="ff_raleway fw_regular fs_xl text-center color_black">
             Why Choose Jeunkoyo
@@ -241,7 +241,7 @@ const Main = () => {
             </div>
           </div>
         </div>
-      </section> */}
+      </section>
     </>
   );
 };

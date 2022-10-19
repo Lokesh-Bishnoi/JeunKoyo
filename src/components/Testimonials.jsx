@@ -7,7 +7,7 @@ const Testimonials = () => {
   return (
     <>
       {/* Testimonials section */}
-      {/* <section>
+      <section>
         <div className="container py-4 mt-4">
           <h2 className="ff_raleway fw_semibold fs_xl color_orange text-center">
             Testimonials
@@ -57,8 +57,25 @@ const Testimonials = () => {
               </p>
             </div>
           </div>
+
+          <div className="orange_border_box text-center">
+            <h2 className="ff_raleway fw_semibold fs_base color_orange">
+              Subscribe To Our Newsletter
+            </h2>
+            <p className="ff_raleway fw_redular fs_sm color_orange">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud.
+            </p>
+            <div className="w-100 mt-4">
+              <input type="text" placeholder="Email Address" />
+              <button className="btn_box ff_raleway fw_semibold fs_sm" type="submit"> 
+                REGISTER
+              </button>
+            </div>
+          </div>
         </div>
-      </section> */}
+      </section>
     </>
   );
 };

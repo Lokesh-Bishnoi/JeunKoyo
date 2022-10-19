@@ -100,15 +100,13 @@ function Hero() {
                   </a>
                 </div>
               </div>
-              <div className="col-lg-6">
+              <div className="col-lg-6 mt-4 mt-lg-0">
                 <img className="w-100" src={noodles} alt="noodles" />
               </div>
             </div>
           </div>
         </section>
       </section>
-      <About />
-      <Menu />
     </>
   );
 }

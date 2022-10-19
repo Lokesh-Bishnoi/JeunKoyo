@@ -26,14 +26,25 @@
 .btn-orange:hover {
   color: white;
 }
-
+input {
+  width: 80%;
+  padding: 16px 50px;
+  border: 1px solid rgba(251, 102, 2, 1);
+  border-radius: 20px 0px 0px 20px;
+}
+.btn_box {
+  padding: 16px 14px 16px 25px;
+  background-color: rgba(251, 102, 2, 1);
+  border-radius: 0px 20px 20px 0px;
+  border: none;
+  color: white;
+}
 .box_white {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   padding: 72px 50px 34px;
   border-radius: 35px;
-  /* box-shadow: 0px 0px 44px 0px #00000064; */
   transition: all 0.4s ease-in-out;
   cursor: pointer;
   height: 100%;
@@ -48,4 +59,19 @@
 }
 .box_white:hover .col_svg path {
   fill: rgb(0, 81, 255);
+}
+.orange_border_box {
+  padding: 40px 50px;
+  width: 70%;
+  transform: translateY(24%);
+  margin: 0 auto;
+  background: #ffffff;
+  border: 1px solid #fb6602;
+  border-radius: 25px;
+}
+.bg_orange1 {
+  background-color: rgba(251, 102, 2, 1);
+}
+.bg_orange1 ul li a:hover {
+  color: whitesmoke;
 }
