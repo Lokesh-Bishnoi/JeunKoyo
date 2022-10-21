@@ -10,15 +10,15 @@ const Footer = () => {
     <>
       <section className="bg_orange1 py-md-5">
         <div className="container py-4">
-          <div className="row align-items-center justify-content-between mt-4">
-            <div className="col-6 col-lg-1 py-4">
+          <div className="row align-items-lg-center justify-content-between mt-4">
+            <div className="col-6 col-lg-1 py-4 d-none d-lg-block">
               <Link to="/">
                 <a className="ff_raleway fw_semibold fs_md color_pink" href="#">
                   Home
                 </a>
               </Link>
             </div>
-            <div className="col-6 col-lg-2 py-4">
+            <div className="col-6 col-lg-2 py-4 d-none d-lg-block">
               <Link to="/Beffypatty">
                 <a className="ff_raleway fw_semibold fs_md color_pink" href="#">
                   Add to Cart
@@ -44,6 +44,17 @@ const Footer = () => {
               </div>
             </div>
             <div className="col-6 col-lg-2 py-4">
+              {" "}
+              <div className="d-lg-none mb-4">
+                <Link to="/Beffypatty">
+                  <a
+                    className="ff_raleway fw_semibold fs_md color_pink"
+                    href="#"
+                  >
+                    Home
+                  </a>
+                </Link>
+              </div>
               <Link to="/Beffypatty">
                 <a className="ff_raleway fw_semibold fs_md color_pink" href="#">
                   Menu
@@ -51,6 +62,16 @@ const Footer = () => {
               </Link>
             </div>
             <div className="col-6 col-lg-2 py-4">
+              <div className="d-lg-none mb-4">
+                <Link to="/Beffypatty">
+                  <a
+                    className="ff_raleway fw_semibold fs_md color_pink"
+                    href="#"
+                  >
+                    Add to Cart
+                  </a>
+                </Link>
+              </div>
               <Link to="/Beffypatty">
                 <a className="ff_raleway fw_semibold fs_md color_pink" href="#">
                   Book Reservations
