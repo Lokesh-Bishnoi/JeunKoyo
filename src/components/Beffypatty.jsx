@@ -7,10 +7,6 @@ import green from "../images/svg/greenTick.svg";
 
 const Beffypatty = () => {
   const [image, setImage] = useState(true);
-
-  function change() {
-    document.className.toggle("hello");
-  }
   return (
     <>
       <Pattey />
@@ -36,7 +32,7 @@ const Beffypatty = () => {
                 )}
                 <button
                   className="add_btn position-absolute top-0 end-0"
-                  onClick={change()}
+                  onClick={() => setImage(green)}
                 >
                   <img src={add} alt="add" />
                 </button>
