@@ -29,7 +29,7 @@ const Beffypatty = () => {
               <img src={beeffyPatty} alt="beeffyPatty" className="w-100" />
               <p className="text-center pt-3 fs_sm fw_semibold color_black">
                 Beefy Patty{" "}
-                <span className="d-xl-block fw_regular">#3,500</span>
+                <span className="d-block fw_regular">#3,500</span>
               </p>
             </div>
             <div className="col-lg-2 col-md-3 col-sm-4 col-6">
@@ -48,12 +48,15 @@ const Beffypatty = () => {
                 >
                   <img src={add} alt="add" />
                 </button>
+                <p className="text-center pt-3 fs_sm fw_semibold color_black">
+                  Beefy Patty <span className="d-block fw_regular">#3,500</span>
+                </p>
               </div>
             </div>
             <div className="col-lg-2 col-md-3 col-sm-4 col-6 py-3">
               <div className="text-center position-relative">
                 {image1 ? (
-                  <img src={beeffyPatty} alt="beeffyPatty" className="w-100" />
+                  <img src={beeffyPatty2} alt="beeffyPatty" className="w-100" />
                 ) : (
                   <img src={green} alt="beeffyPatty2" className="w-100" />
                 )}
@@ -63,6 +66,9 @@ const Beffypatty = () => {
                 >
                   <img src={add} alt="add" />
                 </button>
+                <p className="text-center pt-3 fs_sm fw_semibold color_black">
+                  Beefy Patty <span className="d-block fw_regular">#3,500</span>
+                </p>
               </div>
             </div>
             <div className="col-lg-2 col-md-3 col-sm-4 col-6 py-3">
@@ -78,12 +84,15 @@ const Beffypatty = () => {
                 >
                   <img src={add} alt="add" />
                 </button>
+                <p className="text-center pt-3 fs_sm fw_semibold color_black">
+                  Beefy Patty <span className="d-block fw_regular">#3,500</span>
+                </p>
               </div>
             </div>
             <div className="col-lg-2 col-md-3 col-sm-4 col-6 py-3">
               <div className="text-center position-relative">
                 {image3 ? (
-                  <img src={beeffyPatty} alt="beeffyPatty" className="w-100" />
+                  <img src={beeffyPatty2} alt="beeffyPatty" className="w-100" />
                 ) : (
                   <img src={green} alt="beeffyPatty2" className="w-100" />
                 )}
@@ -93,6 +102,9 @@ const Beffypatty = () => {
                 >
                   <img src={add} alt="add" />
                 </button>
+                <p className="text-center pt-3 fs_sm fw_semibold color_black">
+                  Beefy Patty <span className="d-block fw_regular">#3,500</span>
+                </p>
               </div>
             </div>
             <div className="col-lg-2 col-md-3 col-sm-4 col-6 py-3">
@@ -108,12 +120,15 @@ const Beffypatty = () => {
                 >
                   <img src={add} alt="add" />
                 </button>
+                <p className="text-center pt-3 fs_sm fw_semibold color_black">
+                  Beefy Patty <span className="d-block fw_regular">#3,500</span>
+                </p>
               </div>
             </div>
             <div className="col-lg-2 col-md-3 col-sm-4 col-6 py-3">
               <div className="text-center position-relative">
                 {image5 ? (
-                  <img src={beeffyPatty} alt="beeffyPatty" className="w-100" />
+                  <img src={beeffyPatty2} alt="beeffyPatty" className="w-100" />
                 ) : (
                   <img src={green} alt="beeffyPatty2" className="w-100" />
                 )}
@@ -123,6 +138,9 @@ const Beffypatty = () => {
                 >
                   <img src={add} alt="add" />
                 </button>
+                <p className="text-center pt-3 fs_sm fw_semibold color_black">
+                  Beefy Patty <span className="d-block fw_regular">#3,500</span>
+                </p>
               </div>
             </div>
             <div className="col-lg-2 col-md-3 col-sm-4 col-6 py-3">
@@ -138,12 +156,15 @@ const Beffypatty = () => {
                 >
                   <img src={add} alt="add" />
                 </button>
+                <p className="text-center pt-3 fs_sm fw_semibold color_black">
+                  Beefy Patty <span className="d-block fw_regular">#3,500</span>
+                </p>
               </div>
             </div>
             <div className="col-lg-2 col-md-3 col-sm-4 col-6 py-3">
               <div className="text-center position-relative">
                 {image7 ? (
-                  <img src={beeffyPatty} alt="beeffyPatty" className="w-100" />
+                  <img src={beeffyPatty2} alt="beeffyPatty" className="w-100" />
                 ) : (
                   <img src={green} alt="beeffyPatty2" className="w-100" />
                 )}
@@ -153,6 +174,9 @@ const Beffypatty = () => {
                 >
                   <img src={add} alt="add" />
                 </button>
+                <p className="text-center pt-3 fs_sm fw_semibold color_black">
+                  Beefy Patty <span className="d-block fw_regular">#3,500</span>
+                </p>
               </div>
             </div>
             <div className="col-lg-2 col-md-3 col-sm-4 col-6 py-3">
@@ -168,12 +192,15 @@ const Beffypatty = () => {
                 >
                   <img src={add} alt="add" />
                 </button>
+                <p className="text-center pt-3 fs_sm fw_semibold color_black">
+                  Beefy Patty <span className="d-block fw_regular">#3,500</span>
+                </p>
               </div>
             </div>
             <div className="col-lg-2 col-md-3 col-sm-4 col-6 py-3">
               <div className="text-center position-relative">
                 {image9 ? (
-                  <img src={beeffyPatty} alt="beeffyPatty" className="w-100" />
+                  <img src={beeffyPatty2} alt="beeffyPatty" className="w-100" />
                 ) : (
                   <img src={green} alt="beeffyPatty2" className="w-100" />
                 )}
@@ -183,6 +210,9 @@ const Beffypatty = () => {
                 >
                   <img src={add} alt="add" />
                 </button>
+                <p className="text-center pt-3 fs_sm fw_semibold color_black">
+                  Beefy Patty <span className="d-block fw_regular">#3,500</span>
+                </p>
               </div>
             </div>
             <div className="col-lg-2 col-md-3 col-sm-4 col-6 py-3">
@@ -198,6 +228,9 @@ const Beffypatty = () => {
                 >
                   <img src={add} alt="add" />
                 </button>
+                <p className="text-center pt-3 fs_sm fw_semibold color_black">
+                  Beefy Patty <span className="d-block fw_regular">#3,500</span>
+                </p>
               </div>
             </div>
             <div className="col-lg-2 col-md-3 col-sm-4 col-6 py-3">
@@ -213,6 +246,9 @@ const Beffypatty = () => {
                 >
                   <img src={add} alt="add" />
                 </button>
+                <p className="text-center pt-3 fs_sm fw_semibold color_black">
+                  Beefy Patty <span className="d-block fw_regular">#3,500</span>
+                </p>
               </div>
             </div>
           </div>
