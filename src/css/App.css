@@ -340,11 +340,11 @@ input {
 .menue::after {
   position: absolute;
   content: "";
-  width: 100%;
+  width: 80%;
   height: 5px;
   border-radius: 13px;
   top: -25px;
-  right: 0;
+  right: 10%;
   background-color: #fb6602;
   transition: all linear 350ms;
 }
