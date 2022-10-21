@@ -55,23 +55,24 @@ const Pattey = () => {
         </div>
         <div className={`${navShow ? "nav-fix bg_orangee" : " fix-navbar"}`}>
           <div className="d-flex justify-content-center align-items-center flex-column text-center trans ff-Raleway">
-            <Link to="/home">
+            <Link to="/">
               <a className="text-white fs-5 " href="#">
                 Home
               </a>
             </Link>
-            <Link to="/contact">
+            <Link to="/Beffypatty">
               <a className="text-white fs-5 mt-4 " href="#">
                 Menu
               </a>
             </Link>
           </div>
-          <button
+          <a
+            href="#"
             onClick={() => setNavShow(false)}
             className="bg-transparent btn cross"
           >
             <img src={cross} alt="cross-img" />
-          </button>
+          </a>
         </div>
       </div>
     </>

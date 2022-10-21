@@ -54,7 +54,7 @@ function Hero() {
           </div>
           <div className={`${navShow ? "nav-fix bg_orangee" : " fix-navbar"}`}>
             <div className=" text-center trans ff-Raleway">
-              <Link to="/home">
+              <Link to="/">
                 <a
                   className="text-white fs-5 nav_bar"
                   href="#"
@@ -63,7 +63,7 @@ function Hero() {
                   Home
                 </a>
               </Link>
-              <Link to="/Menu">
+              <Link to="/Beffypatty">
                 <a
                   className="text-white fs-5 mt-4 nav_bar"
                   href="#"

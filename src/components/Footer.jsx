@@ -7,7 +7,7 @@ const Footer = () => {
       <section className="bg_orange1 py-md-5">
         <div className="container py-4">
           <div className="row align-items-center justify-content -center">
-            <div className="col-6 col-lg-4">
+            <div className="col-lg-4">
               <ul className="p-0">
                 <li className="mt-lg-3">
                   <Link to="/">
@@ -48,7 +48,7 @@ const Footer = () => {
                 </li>
               </ul>
             </div>
-            <div className="col-6 col-lg-4">
+            <div className="col-lg-4">
               <ul className="p-0">
                 <li className="mt-lg-3">
                   <Link to="/">
@@ -89,7 +89,7 @@ const Footer = () => {
                 </li>
               </ul>
             </div>
-            <div className="col-6 col-lg-4">
+            <div className="col-lg-4">
               <ul className=" p-0">
                 <li className="mt-lg-3">
                   <Link to="/">
