@@ -72,7 +72,7 @@ const Testimonials = () => {
               veniam, quis nostrud.
             </p>
             <div className="w-100 mt-4">
-              <input type="text" placeholder="Email Address" />
+              <input className="regi" type="text" placeholder="Email Address" />
               <button
                 className="btn_box ff_raleway fw_semibold fs_sm"
                 type="submit"
