@@ -11,6 +11,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Footer from "./components/Footer";
 import Pattey from "./components/Pattey";
+import Beffypatty from "./components/Beffypatty";
 // import { Route, Switch } from "react-router-dom";
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
       <Testimonials />
       <Footer />
       <Pattey />
+      <Beffypatty />
 
       {/* <Switch>
         <Route exact path="/" component={Hero} />

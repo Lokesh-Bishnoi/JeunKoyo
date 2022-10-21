@@ -321,3 +321,7 @@ input {
     transform: translateY(24%);
   }
 }
+.add_btn {
+  background: none;
+  border: none;
+}
