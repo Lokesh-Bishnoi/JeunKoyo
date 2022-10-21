@@ -1,6 +1,5 @@
 import { useState } from "react";
 import React from "react";
-import About from "../components/About";
 import { Link } from "react-router-dom";
 import noodles from "../images/svg/hero-noodles.svg";
 import cross from "../images/png/cross.png";
@@ -21,12 +20,12 @@ function Hero() {
               <span className="color_55">Jeun</span>Koyo
             </p>
             <div className="ff-mono">
-              <Link to="/Main">
+              <Link to="/">
                 <a className="ff-Raleway fw_regular fs_base nav_link" href="#">
                   Home
                 </a>
               </Link>
-              <Link to="/contact">
+              <Link to="/Beffypatty">
                 <a
                   className="ms-5 ff-Raleway fw_regular fs_base nav_link"
                   href="#"
@@ -34,7 +33,7 @@ function Hero() {
                   Menu
                 </a>
               </Link>
-              <Link to="/faq">
+              <Link to="/Reservations">
                 <a
                   className="ms-5 ff-Raleway fw_regular fs_base nav_link "
                   href="#"

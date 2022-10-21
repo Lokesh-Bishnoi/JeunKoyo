@@ -20,7 +20,7 @@ const Pattey = () => {
               <span className="color_55">Jeun</span>Koyo
             </p>
             <div className="ff-mono ms-5 ps-5">
-              <Link>
+              <Link to="/">
                 <a
                   className="ff-Raleway fw_regular fs_base color_black ms-5 nav_menu"
                   href="#"
@@ -28,7 +28,7 @@ const Pattey = () => {
                   Home
                 </a>
               </Link>
-              <Link>
+              <Link to="/Beffypatty">
                 <a
                   className="ms-5 ff-Raleway fw_regular fs_base color_black nav_menu"
                   href="#"
@@ -48,7 +48,9 @@ const Pattey = () => {
             </div>
           </div>
           <div>
-            <img src={shop} alt="" />
+            <Link to="/Addtocart">
+              <img src={shop} alt="" />
+            </Link>
           </div>
         </div>
         <div className={`${navShow ? "nav-fix bg_orangee" : " fix-navbar"}`}>

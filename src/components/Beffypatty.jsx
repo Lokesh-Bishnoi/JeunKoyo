@@ -32,7 +32,7 @@ const Beffypatty = () => {
                 )}
                 <button
                   className="add_btn position-absolute top-0 end-0"
-                  onClick={() => setImage(green)}
+                  onClick={() => setImage(false)}
                 >
                   <img src={add} alt="add" />
                 </button>
