@@ -2,11 +2,14 @@ import React, { useState } from "react";
 import beeffyPatty from "../images/svg/beeffyPatty.svg";
 import beeffyPatty2 from "../images/svg/beeffyPatty2.svg";
 import add from "../images/png/add.png";
+import Pattey from "./Pattey";
+import green from "../images/svg/greenTick.svg";
 
 const Beffypatty = () => {
   const [image, setImage] = useState(true);
   return (
     <>
+      <Pattey />
       <section className="ff-Raleway">
         <div className="container">
           <div className="row">
@@ -25,11 +28,7 @@ const Beffypatty = () => {
                 {image ? (
                   <img src={beeffyPatty} alt="beeffyPatty" className="w-100" />
                 ) : (
-                  <img
-                    src={beeffyPatty2}
-                    alt="beeffyPatty2"
-                    className="w-100"
-                  />
+                  <img src={green} alt="beeffyPatty2" className="w-100" />
                 )}
                 <button
                   className="add_btn position-absolute top-0 end-0"
