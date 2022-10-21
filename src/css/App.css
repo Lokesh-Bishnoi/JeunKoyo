@@ -351,3 +351,9 @@ input {
 .nav_menu:hover {
   color: black;
 }
+.top-10 {
+  top: 10px;
+}
+.end-10 {
+  right: 10px;
+}
