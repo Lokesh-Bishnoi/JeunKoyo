@@ -7,6 +7,18 @@ import green from "../images/svg/greenTick.svg";
 
 const Beffypatty = () => {
   const [image, setImage] = useState(true);
+  const [image1, setImage1] = useState(true);
+  const [image2, setImage2] = useState(true);
+  const [image3, setImage3] = useState(true);
+  // const [image4, setImage4] = useState(true);
+  // const [image5, setImage5] = useState(true);
+  // const [image6, setImage6] = useState(true);
+  // const [image7, setImage7] = useState(true);
+  // const [image8, setImage8] = useState(true);
+  // const [image9, setImage9] = useState(true);
+  // const [image10, setImage10] = useState(true);
+  // const [image11, setImage1]1 = useState(true);
+  // const [image12, setImage1] 2= useState(true);
   return (
     <>
       <Pattey />
@@ -40,14 +52,14 @@ const Beffypatty = () => {
             </div>
             <div className="col-lg-2">
               <div className="text-center position-relative">
-                {image ? (
+                {image1 ? (
                   <img src={beeffyPatty} alt="beeffyPatty" className="w-100" />
                 ) : (
                   <img src={green} alt="beeffyPatty2" className="w-100" />
                 )}
                 <button
                   className="add_btn position-absolute top-0 end-0"
-                  onClick={() => setImage(false)}
+                  onClick={() => setImage1(false)}
                 >
                   <img src={add} alt="add" />
                 </button>
@@ -55,14 +67,14 @@ const Beffypatty = () => {
             </div>
             <div className="col-lg-2">
               <div className="text-center position-relative">
-                {image ? (
+                {image2 ? (
                   <img src={beeffyPatty} alt="beeffyPatty" className="w-100" />
                 ) : (
                   <img src={green} alt="beeffyPatty2" className="w-100" />
                 )}
                 <button
                   className="add_btn position-absolute top-0 end-0"
-                  onClick={() => setImage(false)}
+                  onClick={() => setImage2(false)}
                 >
                   <img src={add} alt="add" />
                 </button>
@@ -70,14 +82,14 @@ const Beffypatty = () => {
             </div>
             <div className="col-lg-2">
               <div className="text-center position-relative">
-                {image ? (
+                {image3 ? (
                   <img src={beeffyPatty} alt="beeffyPatty" className="w-100" />
                 ) : (
                   <img src={green} alt="beeffyPatty2" className="w-100" />
                 )}
                 <button
                   className="add_btn position-absolute top-0 end-0"
-                  onClick={() => setImage(false)}
+                  onClick={() => setImage3(false)}
                 >
                   <img src={add} alt="add" />
                 </button>
