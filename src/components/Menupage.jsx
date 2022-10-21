@@ -9,4 +9,4 @@ const Menupage = () => {
   </>;
 };
 
-export default Menupage;
+export default Menupage; 
