@@ -30,7 +30,7 @@ const Pattey = () => {
               </Link>
               <Link to="/Beffypatty">
                 <a
-                  className="ms-5 ff-Raleway fw_regular fs_base color_black nav_menu"
+                  className="ms-5 ff-Raleway fw_regular fs_base menue color_black nav_menu"
                   href="#"
                 >
                   Menu
