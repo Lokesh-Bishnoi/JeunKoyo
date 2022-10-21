@@ -1,7 +1,8 @@
 import React from "react";
 
 const Menupage = () => {
-  return <></>;
+  return <>
+  </>;
 };
 
 export default Menupage;

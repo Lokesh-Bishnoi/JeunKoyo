@@ -27,13 +27,9 @@ function App() {
       <Main />
       <Testimonials />
       <Footer />
-<<<<<<< HEAD
       <Pattey />
       <Beffypatty />
-
-=======
       <Menupage />
->>>>>>> bd0474f58019dfab3385cbe496c1d8765416bfe7
       {/* <Switch>
         <Route exact path="/" component={Hero} />
         <Route exact path="/About" component={About} />
