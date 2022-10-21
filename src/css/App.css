@@ -278,7 +278,7 @@ input {
   width: 75%;
 }
 .radius {
-  border-radius: 37px 0px !important;
+  border-radius: 68px 0px !important;
   margin: 0 auto;
   width: 75%;
 }
@@ -293,7 +293,7 @@ input {
 
 @media (min-width: 768px) {
   .radius {
-    border-radius: 86px 0px !important;
+    border-radius: 88px 0px !important;
   }
 }
 @media (min-width: 992px) {
