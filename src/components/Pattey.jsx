@@ -32,6 +32,7 @@ const Pattey = () => {
                 <a
                   className="ms-5 ff-Raleway fw_regular fs_base menue color_black nav_menu"
                   href="#"
+                  onClick={() => setNavShow(false)}
                 >
                   Menu
                 </a>
@@ -56,12 +57,16 @@ const Pattey = () => {
         <div className={`${navShow ? "nav-fix bg_orangee" : " fix-navbar"}`}>
           <div className="d-flex justify-content-center align-items-center flex-column text-center trans ff-Raleway">
             <Link to="/">
-              <a className="text-white fs-5" href="#">
+              <a
+                className="text-white fs-5"
+                href="#"
+                onClick={() => setNavShow(true)}
+              >
                 Home
               </a>
             </Link>
             <Link className="mt-4" to="/Beffypatty">
-              <a className="text-white fs-5 " href="#">
+              <a className="text-white fs-5 " href="#" onClick={() => setNavShow(false)}>
                 Menu
               </a>
             </Link>
