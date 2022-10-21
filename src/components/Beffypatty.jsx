@@ -24,7 +24,7 @@ const Beffypatty = () => {
       <Pattey />
       <section className="ff-Raleway">
         <div className="container">
-          <div className="row mt-2 ">
+          <div className="row mt-lg-5">
             {/* <div className="col-lg-2 col-md-3 col-sm-4 col-6">
               <img src={beeffyPatty} alt="beeffyPatty" className="w-100" />
               <p className="text-center pt-3 fs_sm fw_semibold color_black">
