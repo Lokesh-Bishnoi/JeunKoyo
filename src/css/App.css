@@ -38,6 +38,7 @@
     transition: 0.8s ease;
     position: absolute;
     left: -100%;
+    z-index: 9999;
   }
 
   .nav-fix {
@@ -53,6 +54,9 @@
     display: block;
   }
   .nav_link {
+    display: none;
+  }
+  .nav_menu {
     display: none;
   }
   .login_btn {
@@ -324,4 +328,9 @@ input {
 .add_btn {
   background: none;
   border: none;
+}
+@media (max-width: 368px) {
+  .shop_cart {
+    display: none;
+  }
 }

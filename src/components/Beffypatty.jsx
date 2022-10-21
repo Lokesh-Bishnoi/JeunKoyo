@@ -12,7 +12,7 @@ const Beffypatty = () => {
       <Pattey />
       <section className="ff-Raleway">
         <div className="container">
-          <div className="row">
+          <div className="row mt-lg-5 pt-lg-5">
             {/* <div className="col-lg-2">
               <img src={beeffyPatty} alt="beeffyPatty" className="w-100" />
               <p className="text-center pt-3 fs_sm fw_semibold color_black">
@@ -23,6 +23,51 @@ const Beffypatty = () => {
             <div className="col-lg-2">
               <img src={beeffyPatty2} alt="beeffyPatty " className="w-100" />
             </div>   */}
+            <div className="col-lg-2">
+              <div className="text-center position-relative">
+                {image ? (
+                  <img src={beeffyPatty} alt="beeffyPatty" className="w-100" />
+                ) : (
+                  <img src={green} alt="beeffyPatty2" className="w-100" />
+                )}
+                <button
+                  className="add_btn position-absolute top-0 end-0"
+                  onClick={() => setImage(false)}
+                >
+                  <img src={add} alt="add" />
+                </button>
+              </div>
+            </div>
+            <div className="col-lg-2">
+              <div className="text-center position-relative">
+                {image ? (
+                  <img src={beeffyPatty} alt="beeffyPatty" className="w-100" />
+                ) : (
+                  <img src={green} alt="beeffyPatty2" className="w-100" />
+                )}
+                <button
+                  className="add_btn position-absolute top-0 end-0"
+                  onClick={() => setImage(false)}
+                >
+                  <img src={add} alt="add" />
+                </button>
+              </div>
+            </div>
+            <div className="col-lg-2">
+              <div className="text-center position-relative">
+                {image ? (
+                  <img src={beeffyPatty} alt="beeffyPatty" className="w-100" />
+                ) : (
+                  <img src={green} alt="beeffyPatty2" className="w-100" />
+                )}
+                <button
+                  className="add_btn position-absolute top-0 end-0"
+                  onClick={() => setImage(false)}
+                >
+                  <img src={add} alt="add" />
+                </button>
+              </div>
+            </div>
             <div className="col-lg-2">
               <div className="text-center position-relative">
                 {image ? (

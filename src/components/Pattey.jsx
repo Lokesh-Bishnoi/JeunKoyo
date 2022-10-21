@@ -13,7 +13,7 @@ const Pattey = () => {
   }
   return (
     <>
-      <div className="container-fluid px-5">
+      <div className="container-fluid px-md-5">
         <div className="d-flex align-items-center justify-content-between">
           <div className="d-flex align-items-center py-2">
             <p className="ff-Hallelujah ms-lg-5 fs_lg fw_regular color_orange">
@@ -36,25 +36,25 @@ const Pattey = () => {
                   Menu
                 </a>
               </Link>
-              <a
-                href="#"
-                onClick={() => setNavShow(true)}
-                className="text-white py-1 me-3 ms-4 blk_btn"
-              >
-                <span className="line d-block"></span>
-                <span className="line d-block"></span>
-                <span className="line d-block"></span>
-              </a>
             </div>
           </div>
           <div>
             <Link to="/Addtocart">
-              <img src={shop} alt="" />
+              <img src={shop} alt="shop" className="" />
             </Link>
           </div>
+          <a
+            href="#"
+            onClick={() => setNavShow(true)}
+            className="text-white py-1 me-3 ms-4 blk_btn"
+          >
+            <span className="line d-block"></span>
+            <span className="line d-block"></span>
+            <span className="line d-block"></span>
+          </a>
         </div>
         <div className={`${navShow ? "nav-fix bg_orangee" : " fix-navbar"}`}>
-          <div className=" text-center trans ff-Raleway">
+          <div className="d-flex justify-content-center align-items-center flex-column text-center trans ff-Raleway">
             <Link to="/home">
               <a className="text-white fs-5 " href="#">
                 Home
