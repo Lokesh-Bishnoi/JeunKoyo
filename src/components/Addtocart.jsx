@@ -1,9 +1,9 @@
 import React from "react";
-
+import Pattey from "../components/Pattey";
 const Addtocart = () => {
   return (
     <>
-      <h1>Add to cart</h1>
+      <Pattey />
     </>
   );
 };
