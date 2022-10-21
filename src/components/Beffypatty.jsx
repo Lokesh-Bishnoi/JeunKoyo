@@ -7,13 +7,17 @@ import green from "../images/svg/greenTick.svg";
 
 const Beffypatty = () => {
   const [image, setImage] = useState(true);
+
+  function change() {
+    document.className.toggle("hello");
+  }
   return (
     <>
       <Pattey />
       <section className="ff-Raleway">
         <div className="container">
           <div className="row">
-            <div className="col-lg-2">
+            {/* <div className="col-lg-2">
               <img src={beeffyPatty} alt="beeffyPatty" className="w-100" />
               <p className="text-center pt-3 fs_sm fw_semibold color_black">
                 Beefy Patty{" "}
@@ -22,7 +26,7 @@ const Beffypatty = () => {
             </div>
             <div className="col-lg-2">
               <img src={beeffyPatty2} alt="beeffyPatty " className="w-100" />
-            </div>
+            </div>   */}
             <div className="col-lg-2">
               <div className="text-center position-relative">
                 {image ? (
@@ -32,7 +36,7 @@ const Beffypatty = () => {
                 )}
                 <button
                   className="add_btn position-absolute top-0 end-0"
-                  onClick={() => setImage(!image)}
+                  onClick={change()}
                 >
                   <img src={add} alt="add" />
                 </button>

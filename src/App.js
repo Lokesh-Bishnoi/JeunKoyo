@@ -10,8 +10,6 @@ import Testimonials from "./components/Testimonials";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Footer from "./components/Footer";
-import Pattey from "./components/Pattey";
-import Beffypatty from "./components/Beffypatty";
 import Menupage from "./components/Menupage";
 import Beffypatty from "./components/Beffypatty";
 // import { Route, Switch } from "react-router-dom";
@@ -25,11 +23,8 @@ function App() {
       <Main />
       <Testimonials />
       <Footer />
-      <Pattey />
       <Beffypatty />
       <Menupage />
-
-      <Beffypatty />
 
       {/* <Switch>
         <Route exact path="/" component={Hero} />
