@@ -20,7 +20,7 @@ function App() {
     <>
       <Hero />
       <About />
-      <Menu />
+      <Menu />  
       <Main />
       <Testimonials />
       <Footer />
