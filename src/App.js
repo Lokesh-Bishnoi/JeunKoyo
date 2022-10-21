@@ -10,12 +10,9 @@ import Menu from "./components/Menu";
 import Main from "./components/Main";
 import Testimonials from "./components/Testimonials";
 import Footer from "./components/Footer";
-<<<<<<< HEAD
 import Pattey from "./components/Pattey";
 import Beffypatty from "./components/Beffypatty";
-=======
 import Menupage from "./components/Menupage";
->>>>>>> bd0474f58019dfab3385cbe496c1d8765416bfe7
 // import { Route, Switch } from "react-router-dom";
 
 function App() {
