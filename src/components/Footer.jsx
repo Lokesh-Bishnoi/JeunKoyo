@@ -73,7 +73,10 @@ const Footer = () => {
                 </Link>
               </div>
               <Link to="/Beffypatty">
-                <a className="ff_raleway fw_semibold fs_md color_pink" href="#">
+                <a
+                  className="ff_raleway fw_semibold fs_md color_pink text-nowrap"
+                  href="#"
+                >
                   Book Reservations
                 </a>
               </Link>
